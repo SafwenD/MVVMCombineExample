@@ -11,6 +11,12 @@
 		5F3FBA632C25B19400550CD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FBA622C25B19400550CD6 /* ContentView.swift */; };
 		5F3FBA652C25B19600550CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3FBA642C25B19600550CD6 /* Assets.xcassets */; };
 		5F3FBA682C25B19600550CD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3FBA672C25B19600550CD6 /* Preview Assets.xcassets */; };
+		5F3FBA6F2C25B38F00550CD6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FBA6E2C25B38F00550CD6 /* ViewModel.swift */; };
+		5F3FBA712C25B3DF00550CD6 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FBA702C25B3DF00550CD6 /* Interactor.swift */; };
+		5F3FBA732C25B3FE00550CD6 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FBA722C25B3FE00550CD6 /* Repository.swift */; };
+		5F3FBA752C25B41600550CD6 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FBA742C25B41600550CD6 /* Networker.swift */; };
+		5F3FBA772C25F4F000550CD6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FBA762C25F4F000550CD6 /* Models.swift */; };
+		5F3FBA792C25F56C00550CD6 /* DTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FBA782C25F56C00550CD6 /* DTOs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		5F3FBA622C25B19400550CD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F3FBA642C25B19600550CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F3FBA672C25B19600550CD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F3FBA6E2C25B38F00550CD6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5F3FBA702C25B3DF00550CD6 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		5F3FBA722C25B3FE00550CD6 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		5F3FBA742C25B41600550CD6 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		5F3FBA762C25F4F000550CD6 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5F3FBA782C25F56C00550CD6 /* DTOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTOs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				5F3FBA602C25B19400550CD6 /* MVVMCombineExampleApp.swift */,
 				5F3FBA622C25B19400550CD6 /* ContentView.swift */,
+				5F3FBA6E2C25B38F00550CD6 /* ViewModel.swift */,
+				5F3FBA702C25B3DF00550CD6 /* Interactor.swift */,
+				5F3FBA722C25B3FE00550CD6 /* Repository.swift */,
+				5F3FBA742C25B41600550CD6 /* Networker.swift */,
+				5F3FBA762C25F4F000550CD6 /* Models.swift */,
+				5F3FBA782C25F56C00550CD6 /* DTOs.swift */,
 				5F3FBA642C25B19600550CD6 /* Assets.xcassets */,
 				5F3FBA662C25B19600550CD6 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3FBA772C25F4F000550CD6 /* Models.swift in Sources */,
 				5F3FBA632C25B19400550CD6 /* ContentView.swift in Sources */,
+				5F3FBA6F2C25B38F00550CD6 /* ViewModel.swift in Sources */,
+				5F3FBA732C25B3FE00550CD6 /* Repository.swift in Sources */,
+				5F3FBA712C25B3DF00550CD6 /* Interactor.swift in Sources */,
 				5F3FBA612C25B19400550CD6 /* MVVMCombineExampleApp.swift in Sources */,
+				5F3FBA752C25B41600550CD6 /* Networker.swift in Sources */,
+				5F3FBA792C25F56C00550CD6 /* DTOs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
